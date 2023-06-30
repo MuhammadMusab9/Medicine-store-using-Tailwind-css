@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!--<style>
+      .desc{
+        visibility:hidden;
+      }
+      .produc_container:hover .desc{
+        visibility: visible;
+      }
+    </style> -->
+
+    <title>LFE SERVE PHARMACY_Medicine</title>
+    
+</head>
+<body>
+
+   <!--Navbar-->
+   <nav class="bg-gradient-to-r from-green-400 to-blue-500  flex justify-between ">
+       
+    <div class=" pl-2 pt-7 ml-5 "><img class="rounded-3xl w-12 h-12" src="img/pharm logo 1.jpg"  alt="" srcset=""></div>
+
+    <div class=" mt-10 ml-4  m-auto  "> <span class="text-lg font-semibold">LIFE SERVE</span><a href="/ "  rel="noopener noreferrer"> </a><span class="text-yellow-400 h-12 mt-16   font-normal  ">PHARMACY </span> </div>
+     
+
+    
+    <ul class="px-22 py-8  flex space-x-8 justify-center text-white box-border">
+       <li  class="cursor-pointer  hover:scale-125 ml-9"><a href="index.html"> HOME</a></li>
+        <li   class="cursor-pointer hover:scale-125 "> <a href="medicine.html" target="" rel="noopener noreferrer">MEDICINE</a>  </li>
+        <li  class="cursor-pointer hover:scale-125 "><a href="gallery.html">GALLERY</a></li>
+        <li  class="cursor-pointer hover:scale-125 "><a class="scroll-smooth" href="about.html">  ABOUT US</a></li>
+        <li  class="cursor-pointer hover:scale-125 "><a href="contact us.html"> CONTACT US</a></li>
+
+        <div ><span class="  items-center  flex justify-center w-6 h-6 hover:scale-110  border-2 to-black    mt bg-red-500 rounded-full text-white text-xs">2</span><a href="cart.html"><img class="w-10 h-10  cursor-pointer hover:scale-110" src="img/add-to-cart med.png" alt="" ></a></div>
+          <!--previous icon code
+            <span>Inbox</span>
+          <span class="badge absolute top-0 right-0 flex items-center justify-center w-4 h-4 bg-red-500 rounded-full text-white text-xs ">notification</span>
+        </a></li> -->
+        <a href="login.html"> <li class="cursor-pointer hover:scale-125 text-yellow-400 text-lg mr-4" >Login</li></a>
+        <a href="signup.html"> <li class="cursor-pointer hover:scale-125 -ml-8 text-yellow-400 text-lg" >sign up</li></a>
+      
+    </ul>
+    <!--Search bar-->
+     <div class="flex justify-center ml-4">
+        <form class="flex items-center w-64">
+          <input type="text" placeholder="Search" class="w-52 px-2 py-2 border border-green-900 rounded-2xl   focus:outline-none focus:ring-1 focus:ring-green-600 focus:border-transparent">
+          <button type="submit" class="ml-1 bg-green-600 hover:bg-green-500 text-white rounded-2xl px-3 py-1">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>    
+</nav>
+ <!--Navbar ends--> 
+    
+
+                                            <!--mb-28 gap between main and footer-->
+    <main class="max-w-[1320px] mx-auto lg:grid-cols-5 md:grid-cols-2 gap-5 px-3 mb-28 " >
+ <!--MAP-->
+ <!--      <div class="flex items-center ml-96 mt-5">
+        <input id="location-input" type="text" placeholder="Enter your location" class="px-4 py-2  mr-1 border border-gray-300 rounded-md w-64 focus:outline-none focus:ring-1 focus:ring-green-400">
+        <button id="select-location-btn" class="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-md focus:outline-none   hover:text-yellow-400  ">Select on Map</button>
+      </div> -->
+
+       <!--MAP ENDS-->
+
+        <div > 
+            
+        </div>
+
+        
+      <!--MEDICINES START .........!!!!!-->
+<div id="medicine">
+  
+   <div class="max-w-[1320px] mx-auto my-auto mb-4">
+    <h1 class="text-4xl text-center py-5 ">FEATURED PRODUCTS</h1>
+     <hr class="w-96 ml-[450px] border-green-200 ">       
+     </div>
+     
+         
+         
+         <!--RESPONSIVE -->
+
+    <!--1st ROW CARTS-->
+                                <!--mb-10 margin between 1st and 2nd row-->
+                                 
+                                   
+                                    <!--Cart img 1-->
+                                    <div class="flex space-x-4 mb-8">
+                                    <div class="text-center  px-3 py-3">
+                                        <h1 class="font-bold text-lg underline  bg-green-300 mb-8">Tablets and Capsule </h1>
+                                     
+                                      <div class="w-60 float-left mr-1  ">
+                                        <img class="w-32 h-32 cursor-pointer hover:scale-90 hover:visible " src="img/med/merol tab 50mg.jpeg"  />
+                        
+                                         <!--ADD TO CART ICON-->
+                                        <span class="flex items-center">
+                                          <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500 "></i>
+                                        </span>
+                                        
+                                        <p class="font-bold text-slate-700 mt-2 text-center" >merol tab</p>
+                                        <h4 class="text-green-500 font-medium font-serif">45.90 Rs</h4>
+                                        <hr class="w-[70px] ml-20">
+                                        <div class=" invisible">
+                                          <p class="">This medicine is used to treat eyes that are dry due to tear deficiency.</p>
+                                        </div>
+                                      </div>
+                                   <!--Cart img 2-->
+                                   <div class=" w-60 float-left mr-1">
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Domel tab.jpeg"  />
+                                    
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                        
+                                    <p class="font-bold text-slate-700 mt-2" >Domel Tablets</p>
+                                    <h4 class="text-green-500 font-medium font-serif">357 Rs</h4>
+                                  </div>
+                        
+                                   <!--Cart img 3-->
+                                   <div class=" w-60  float-left mr-1" >
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/felxin tab 250.jpeg"  />
+                                   
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                        
+                                    <p class="font-bold text-slate-700 mt-2 ">felxin tab <sub>250mg</sub></p>
+                                    <h4 class="text-green-500 font-medium font-serif">96.90 Rs</h4>
+                                   </div>
+                        
+                                    <!--Cart img 4-->
+                                   <div class=" w-60  float-left mr-1" >
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/flexin tab 500.jpeg"  />
+                         
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                         
+                                    <p class="font-bold text-slate-700 mt-2 ">flexin tab 500</p>
+                                    <h4 class="text-green-500 font-medium font-serif">173 Rs</h4>
+                                   </div>
+                        
+                                   <!--Cart img 5-->
+                                   <div class=" w-60  float-left mr-1">
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/hytrin tab 2mg.jpeg"  />
+                                    
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                        
+                                    <p class="font-bold text-slate-700 mt-2 ">hytrin tab</p>
+                                    <h4 class="text-green-500 font-medium font-serif">785 Rs</h4>
+                                   </div>
+                                  </div>
+                                </div>
+
+
+                                <!-- 2nd ROW CARTS START-->
+                             
+                              <div class="flex space-x-4 mb-10" >
+                                   
+                                <!--Cart img 1-->
+                                <div class="text-center  px-3 py-3">
+                        
+                                  <div class="w-60 float-left mr-1">
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/barimox tab.jpeg"  />
+                        
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                        
+                                    <p class="font-bold text-slate-700 mt-2" >barimox  <sub>400mg tablets</sub></p>
+                                    <h4 class="text-green-500 font-medium font-serif">456 Rs</h4>
+                                  </div>
+                        
+                               <!--Cart img 2-->
+                               <div class=" w-60 float-left mr-1">
+                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Diabold tab 1mg.jpeg"  />
+                        
+                                 <!--ADD TO CART ICON-->
+                                 <span class="flex items-center">
+                                  <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                </span>
+                        
+                                <p class="font-bold text-slate-700 mt-2" >Diabold tab <sub>1mg</sub></p>
+                                <h4 class="text-green-500 font-medium font-serif">41.80 Rs</h4>
+                              </div>
+                        
+                               <!--Cart img 3-->
+                               <div class=" w-60  float-left mr-1" >
+                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/panadol tablet.jpeg"  />
+                        
+                                 <!--ADD TO CART ICON-->
+                                 <span class="flex items-center">
+                                  <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                </span>
+                        
+                                <p class="font-bold text-slate-700 mt-2 ">panadol tablet<sub>500 Mg</sub></p>
+                                <h4 class="text-green-500 font-medium font-serif">25 Rs</h4>
+                               </div>
+                        
+                                <!--Cart img 4-->
+                               <div class=" w-60  float-left mr-1" >
+                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/bartitec tab.jpeg"  />
+                        
+                                 <!--ADD TO CART ICON-->
+                                 <span class="flex items-center">
+                                  <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                </span>
+                        
+                                <p class="font-bold text-slate-700 mt-2 ">baritec tab<sub>20 mg</sub></p>
+                                <h4 class="text-green-500 font-medium font-serif">218 Rs</h4>
+                               </div>
+                        
+                               <!--Cart img 5-->
+                               <div class=" w-60  float-left mr-1">
+                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Britanyl tab.jpeg"  />
+                        
+                                 <!--ADD TO CART ICON-->
+                                 <span class="flex items-center">
+                                  <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                </span> 
+                        
+                                <p class="font-bold text-slate-700 mt-2 ">Britanyl tablets 2.5mg</p>
+                                <h4 class="text-green-500 font-medium font-serif">21 Rs</h4>
+                               </div>
+                              </div>
+                            </div>
+                            <!-- CARTS END-->  
+                          
+
+ <!--Cart img 1-->
+                                    <div class="flex space-x-4 mb-8">
+                                    <div class="text-center  px-3 py-3">
+                                  
+                                      <div class="w-60 float-left mr-1  ">
+                                        <img class="w-32 h-32 cursor-pointer hover:scale-90 hover:visible " src="img/med/donecept tab.jpeg"  />
+                        
+                                         <!--ADD TO CART ICON-->
+                                        <span class="flex items-center">
+                                          <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500 "></i>
+                                        </span>
+                                        
+                                        <p class="font-bold text-slate-700 mt-2 text-center" >donecept tab 5mg</p>
+                                        <h4 class="text-green-500 font-medium font-serif">228 Rs</h4>
+                                        <hr class="w-[70px] ml-20">
+                                        <div class=" invisible">
+                                          <p class="">This medicine is used to treat eyes that are dry due to tear deficiency.</p>
+                                        </div>
+                                      </div>
+                                   <!--Cart img 2-->
+                                   <div class=" w-60 float-left mr-1">
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Terlax 2mg tab.jpeg"  />
+                                    
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                        
+                                    <p class="font-bold text-slate-700 mt-2" >Terlax 2mg tab</p>
+                                    <h4 class="text-green-500 font-medium font-serif">116 Rs</h4>
+                                  </div>
+                        
+                                   <!--Cart img 3-->
+                                   <div class=" w-60  float-left mr-1" >
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Epler 50Mg Tablets 10S (Pack Size 1 X 10S).jpeg"  />
+                                   
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                        
+                                    <p class="font-bold text-slate-700 mt-2 ">Epler <sub>50Mg Tablets</sub></p>
+                                    <h4 class="text-green-500 font-medium font-serif">735 Rs</h4>
+                                   </div>
+                        
+                                    <!--Cart img 4-->
+                                   <div class=" w-60  float-left mr-1" >
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/merol 100mg tab.jpeg"  />
+                         
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                         
+                                    <p class="font-bold text-slate-700 mt-2 ">merol 100mg tab</p>
+                                    <h4 class="text-green-500 font-medium font-serif">78.70 Rs</h4>
+                                   </div>
+                        
+                                   <!--Cart img 5-->
+                                   <div class=" w-60  float-left mr-1">
+                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Alkeris Sr 200mg tab (pack size 1 x 10s).webp"  />
+                                    
+                                     <!--ADD TO CART ICON-->
+                                     <span class="flex items-center">
+                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                    </span>
+                        
+                                    <p class="font-bold text-slate-700 mt-2 ">Alkeris Sr 200mg tab </p>
+                                    <h4 class="text-green-500 font-medium font-serif">325 Rs</h4>
+                                   </div>
+                                  </div>
+                                </div>
+
+                               
+      <!--tab 3 Row end-->                  
+                                            <!-- 3rd ROW CARTS START-->
+                           
+                                               <!--mb-10 margin between 1st and 2nd row-->
+                        
+                                               <div id="Liquids/Syrups">
+                                               <div class="flex space-x-4 mb-10 " >
+                                   
+                                                <!--Cart img 1-->
+                                                <div class="text-center  px-3 py-3">
+                                                  <h1 class="font-bold text-lg underline bg-green-300 mb-8 ">Liquids/Syrups</h1>
+                        
+                                                  <div class=" w-60 float-left mr-1">
+                                                    <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Osteocare 200Ml Liquid.jpeg"  />
+                        
+                                                     <!--ADD TO CART ICON-->
+                                                      <span class="flex items-center">
+                                                      <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                                      </span>
+                        
+                                                    <p class="font-bold text-slate-700 mt-2" >Osteocare  Liquid<sub>200Ml</sub></p>
+                                                    <h4 class="text-green-500 font-medium font-serif">1102 Rs</h4>
+                                                  </div>
+                                    
+                                               <!--Cart img 2-->
+                                               <div class=" w-60 float-left mr-1">
+                                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Kidz Omega Healthaid 200 Ml Liquid.jpeg"  />
+                        
+                                                  <!--ADD TO CART ICON-->
+                                        <span class="flex items-center">
+                                          <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                        </span>
+                        
+                                                <p class="font-bold text-slate-700 mt-2" >Kidz Omega Healthaid  Liquid <sub>200 Ml</sub></p>
+                                                <h4 class="text-green-500 font-medium font-serif">3176 Rs</h4>
+                                              </div>
+                                    
+                                               <!--Cart img 3-->
+                                               <div class=" w-60  float-left mr-1" >
+                                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Bio Grow syrup.jpeg"  />
+                        
+                                                 <!--ADD TO CART ICON-->
+                                        <span class="flex items-center">
+                                          <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                        </span>
+                        
+                                                <p class="font-bold text-slate-700 mt-2 ">Bio Grow syrup<sub></sub></p>
+                                                <h4 class="text-green-500 font-medium font-serif">450 Rs</h4>
+                                               </div>
+                                    
+                                                <!--Cart img 4-->
+                                               <div class=" w-60  float-left mr-1" >
+                                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Panadol 160Mg Syrup 120 Ml.jpeg"  />
+                        
+                        
+                                                 <!--ADD TO CART ICON-->
+                                        <span class="flex items-center">
+                                          <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                        </span>
+                        
+                                                <p class="font-bold text-slate-700 mt-2 ">Panadol  120 Ml<sub>160Mg Syrup</sub></p>
+                                                <h4 class="text-green-500 font-medium font-serif">111 Rs</h4>
+                                               </div>
+                                    
+                                               <!--Cart img 5-->
+                                               <div class=" w-60  float-left mr-1">
+                                                <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Musaffeen 120 Ml Syrup.jpeg"  />
+                        
+                                                  <!--ADD TO CART ICON-->
+                                        <span class="flex items-center">
+                                          <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                        </span>
+                        
+                                                <p class="font-bold text-slate-700 mt-2 ">Musaffeen Syrup <sub>120 ml</sub></p>
+                                                <h4 class="text-green-500 font-medium font-serif">90 Rs</h4>
+                                               </div>
+                                    
+                                               
+                                    
+                                              </div>
+                                               </div>
+                                    <!-- 3rd ROW CARTS END-->  
+                                    
+                                    
+                        
+                                     <!-- 4th ROW CARTS starts-->  
+                                    <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Lithiogonliquid 120 Ml Syrup.jpeg"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" >Lithiogonliquid  <sub>120 Ml Syrup</sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">150 Rs</h4>
+                        
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Acefyl syrup.jpg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" >Acefyl syrup <sub>125ml</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">87 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/arinac syrup.jpg"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">arinac syrup<sub>120ml</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">89 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/corex-d syrup.jpg"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">corex-d syrup<sub>120ml</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">82 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/Hydryllin Syrup.jpg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">Hydryllin Syrup <sub>120ml</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">70 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                                  
+                        
+                                     <!-- 4th ROW CARTS END-->  
+                        
+                        
+                        
+                        
+                                        <!-- 5th ROW CARTS start-->  
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                                        <h1 class="font-bold text-lg underline bg-green-300 mb-8 ">Creams and Ointments</h1>
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/04810.jpeg"  />
+                                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" >Merol <sub>50mg</sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">45.90 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/04814 (2).jpeg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" >Barimox <sub>400mg tablets</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">456 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/04815 (2).jpeg"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">Baritec<sub>20mg tablets</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">218 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/04818.jpeg"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">cefspan<sub>400mg capsule</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">551 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05392 (2).jpeg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">oxcymDR<sub>30mg Capsule</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">375 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                        
+                        
+                        
+                        
+                                        <!-- 5th ROW CARTS END-->  
+                        
+                        
+                        
+                                        <!-- 6th ROW CARTS Start-->  
+                        
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05395.jpeg"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" >Donecept <sub>10mg</sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">316 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05402-1.jpeg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" >Merol<sub>100mg tablets</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">78 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05404.jpeg"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">Minirin <sub>0.2mg</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05422.jpeg"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">Cipocain<sub>5ml sterile ear drops</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05424 (2).jpeg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">DiaBold<sub>1mg</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                                      
+                        
+                        
+                                         <!-- 6th ROW CARTS END-->  
+                        
+                        
+                        
+                                            <!-- 7th ROW CARTS start-->  
+                                
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                                        <h1 class="font-bold text-lg underline bg-green-300 mb-8 ">Lotions</h1>
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05578_3.jpeg"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" >Faverine <sub>100mg</sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05915_2.jpeg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" >flexin<sub>250mg tablets</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/05916_2.jpeg"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">flexin<sub>500mg tablets</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/06387 (1).jpeg"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">Epival<sub>250mg tablets</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/06743.jpeg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">Zincat-OD <sub>Syrup</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                        
+                        
+                                          <!-- 7th ROW CARTS END-->
+                                          
+                                          
+                                           <!--  8th ROW CARTS start-->  
+                        
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/06744.jpeg"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" >Dioplus  <sub>5/160mg tablets</sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/betagenic cream 15ggg.jpeg"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" >Betagenic Cream<sub>15 grams</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/panadol tablet.jpeg"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 ">panadol <sub>tablets</sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                                  
+                        
+                                     <!--  8th ROW CARTS end-->
+                                     
+                                     
+                        
+                        
+                                     <!--  9th ROW CARTS start-->
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                                        <h1 class="font-bold text-lg underline bg-green-300 mb-8 ">Gels</h1>
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                        
+                                     <!--  9th ROW CARTS end--> 
+                        
+                        
+                                          
+                                     <!--  10th ROW CARTS start--> 
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                              
+                        
+                                    <!--  10th ROW CARTS end-->
+                        
+                        
+                        
+                        
+                                      <!--  11th ROW CARTS start-->
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                                        <h1>Injections</h1>
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                        
+                                     <!--  11th ROW CARTS end-->
+                        
+                                         
+                        
+                                      <!--  12th ROW CARTS start-->
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" ><sub></sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src=""  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                                    </div>
+                                     <!--  12th ROW CARTS ends-->
+                        
+                        
+                        
+                                     <!--  13th ROW CARTS starts-->
+                        
+                                     <div class="flex space-x-4 mb-10" >
+                                   
+                                      <!--Cart img 1-->
+                                      <div class="text-center  px-3 py-3">
+                                        <h1 class="font-bold text-lg underline bg-green-300 mb-8 "> Inhalers and Nebulizers </h1>
+                        
+                                        <div class=" w-60 float-left mr-1">
+                                          <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                           <!--ADD TO CART ICON-->
+                                            <span class="flex items-center">
+                                            <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                                            </span>
+                        
+                                          <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+                                          <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                        </div>
+                          
+                                     <!--Cart img 2-->
+                                     <div class=" w-60 float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2" ><sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                    </div>
+                          
+                                     <!--Cart img 3-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                      <!--Cart img 4-->
+                                     <div class=" w-60  float-left mr-1" >
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                        
+                                       <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     <!--Cart img 5-->
+                                     <div class=" w-60  float-left mr-1">
+                                      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+                        
+                                        <!--ADD TO CART ICON-->
+                              <span class="flex items-center">
+                                <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+                              </span>
+                        
+                                      <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+                                      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+                                     </div>
+                          
+                                     
+                          
+                                    </div>
+                                     </div>
+                                      <!-- medicine id div-->
+                        
+                        
+                                    <!--  13th ROW CARTS starts-->
+                        
+                              <!--MEDICINES END-->
+                                </div>
+
+
+<!--  14th ROW CARTS start-->
+<div class="flex space-x-4 mb-10" >
+                                   
+  <!--Cart img 1-->
+  <div class="text-center  px-3 py-3">
+    <h1>Injections</h1>
+
+    <div class=" w-60 float-left mr-1">
+      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+       <!--ADD TO CART ICON-->
+        <span class="flex items-center">
+        <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+        </span>
+
+      <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+    </div>
+
+ <!--Cart img 2-->
+ <div class=" w-60 float-left mr-1">
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+    <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+</div>
+
+ <!--Cart img 3-->
+ <div class=" w-60  float-left mr-1" >
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+   <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+ </div>
+
+  <!--Cart img 4-->
+ <div class=" w-60  float-left mr-1" >
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+
+   <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+ </div>
+
+ <!--Cart img 5-->
+ <div class=" w-60  float-left mr-1">
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+    <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+ </div>
+
+ 
+
+</div>
+ </div>
+
+ <!--  14th ROW CARTS end-->
+
+     
+
+  <!--  15th ROW CARTS start-->
+ <div class="flex space-x-4 mb-10" >
+
+  <!--Cart img 1-->
+  <div class="text-center  px-3 py-3">
+
+    <div class=" w-60 float-left mr-1">
+      <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+       <!--ADD TO CART ICON-->
+        <span class="flex items-center">
+        <i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+        </span>
+
+      <p class="font-bold text-slate-700 mt-2" ><sub></sub></p>
+      <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+    </div>
+
+ <!--Cart img 2-->
+ <div class=" w-60 float-left mr-1">
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+    <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2" > <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+</div>
+
+ <!--Cart img 3-->
+ <div class=" w-60  float-left mr-1" >
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+   <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+ </div>
+
+  <!--Cart img 4-->
+ <div class=" w-60  float-left mr-1" >
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src="img/med/"  />
+
+
+   <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+ </div>
+
+ <!--Cart img 5-->
+ <div class=" w-60  float-left mr-1">
+  <img class="w-32 h-32 cursor-pointer hover:scale-90" src=""  />
+
+    <!--ADD TO CART ICON-->
+<span class="flex items-center">
+<i class="fas fa-shopping-cart hover:scale-110 ml-52 text-gray-500"></i>
+</span>
+
+  <p class="font-bold text-slate-700 mt-2 "> <sub></sub></p>
+  <h4 class="text-green-500 font-medium font-serif">250 Rs</h4>
+ </div>
+
+ 
+
+</div>
+ </div>
+</div>
+ <!--  15th ROW CARTS ends-->
+
+
+
+
+    </main>
+
+
+    <!--footer-->
+    <div class="footer">
+    <footer class="bg-gradient-to-r from-blue-500 to-green-400 text-white">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 ">
+            <div>
+              <h3 class="text-lg font-bold pt-52">Contact Us</h3>
+              <ul class="mt-4">
+                <li>Phone: 123-456-7890</li>
+                <li>Email: info@example.com</li>
+                <li>Address: 123 Street, City</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold pt-52">Explore</h3>
+              <ul class="mt-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold pt-52">Customer Support</h3>
+              <ul class="mt-4">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Shipping Information</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+              <div >
+                <h3 class="text-lg font-bold pt-52">Follow Us</h3>
+                <ul class="mt-4">
+                  <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+              </div>
+            
+          </div>
+          <hr class="border-gray-700 mt-8">
+          <div class="mt-6 text-center">
+            <p>&copy; 2023 Life Serve Pharmacy. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  
+</body>
+</html>
